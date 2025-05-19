@@ -1,5 +1,9 @@
+import TodoList from "../islands/TodoList.tsx";
+
 export default function Home() {
   return (
-    <h1>Welcome to Fresh!</h1>
+    <div class="p-4">
+      <TodoList />
+    </div>
   );
 }
